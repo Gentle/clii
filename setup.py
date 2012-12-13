@@ -7,7 +7,7 @@ setup(
     author='Ramon Klass',
     author_email='tier@schokokeks.org',
     description='commandline helper utilities',
-    packages=find_packages()
+    packages=find_packages(),
     install_requires=[
         'pytest',
     ],
