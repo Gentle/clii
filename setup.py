@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='clii',
@@ -7,5 +7,5 @@ setup(
     author='Ramon Klass',
     author_email='tier@schokokeks.org',
     description='commandline helper utilities',
-    packages=['clii']
+    packages=find_packages()
 )
