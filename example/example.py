@@ -2,9 +2,9 @@
 
 import time
 
-from progress import Spinner, ProgressBar, TimedSpinner
-from completers import ListCompleter
-from wizard import Wizard
+from clii.progress import Spinner, ProgressBar, TimedSpinner
+from clii.completers import ListCompleter
+from clii.wizard import Wizard
 
 def spinner_test():
     s = Spinner(u'Spin!')
