@@ -1,7 +1,7 @@
 import sys
 import readline
 
-from completers import ListCompleter
+from ..completers import ListCompleter
 
 class Wizard(object):
     def __init__(self):

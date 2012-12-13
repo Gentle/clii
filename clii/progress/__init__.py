@@ -3,7 +3,7 @@ import sys
 import threading
 import time
 
-from util import getTerminalSize
+from ..util import getTerminalSize
 
 class ProgressIndicator(object):
     def __init__(self):
