@@ -8,4 +8,13 @@ setup(
     author_email='tier@schokokeks.org',
     description='commandline helper utilities',
     packages=find_packages()
+    install_requires=[
+        'pytest',
+    ],
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Environment :: Console',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+    ]
 )
