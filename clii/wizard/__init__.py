@@ -49,9 +49,9 @@ class Wizard(object):
                               completer)
             if not result:
                 return default
-            if result in good:
+            if result.lower() in good:
                 return True
-            elif result in bad:
+            elif result.lower() in bad:
                 return False
             self.say('please answer yes or no!')
 
